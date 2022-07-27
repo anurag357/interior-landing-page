@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("./image/backimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "poppins", sans-serif;
+  color: #ffffff;
+  width: 70vw;
+}
+
+/* logo */
+.logo {
+  width: 8rem;
+  position: relative;
+  top: 5rem;
+  left: 4rem;
+}
+
+
+/* navbar */
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: 6rem;
+  margin-right: -22rem;
+  margin-bottom: 18px;
+}
+
+.line {
+  position: relative;
+  background-color: #ffffff;
+  height: 1px;
+  width: 953px;
+  left: 22.7rem;
+  margin-top: 20px;
+}
+
+/* heading */
+.heading {
+  position: relative;
+  top: 8rem;
+  left: 6rem;
+}
+
+.heading h1 {
+  font-size: 3.5rem;
+}
+
+.buttonn button {
+  display: inline;
+  border: 2.8px solid #ffffff;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  color: inherit;
+  padding: 14px 40px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+/* icons */
+.icon01 {
+  position: relative;
+  left: 57rem;
+  top: -12rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 130px;
+  width: 260px;
+  padding: 15px;
+}
+
+.icons {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 30px;
+  width: 52px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.fa-solid {
+  margin-left: 17px;
+}
+
+.line01 {
+  position: relative;
+  background-color: #ffffff;
+  height: 63px;
+  width: 1px;
+  left: 9rem;
+  margin-top: 26px;
+}
+
+.dot {
+  position: relative;
+  background-color: #ffffff;
+  height: 15px;
+  width: 16px;
+  border-radius: 10px;
+  left: 137px;
+  margin-top: -2px;
+}
+
+.icon02 {
+  position: relative;
+  left: 44rem;
+  top: -6rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 158px;
+  width: 260px;
+  padding: 15px;
+}
+.line02 {
+  position: relative;
+  background-color: #ffffff;
+  height: 1px;
+  width: 63px;
+  left: 245px;
+  margin-top: -63px;
+}
+
+.dot01 {
+  position: relative;
+  background-color: #ffffff;
+  height: 15px;
+  width: 16px;
+  border-radius: 10px;
+  left: 309px;
+  margin-top: -8px;
+}
