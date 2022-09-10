@@ -143,3 +143,98 @@ body {
   left: 309px;
   margin-top: -8px;
 }
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20vw;
+  }
+
+  .logo img {
+    width: 5rem;
+    left: 4rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  .line {
+    height: 1px;
+    width: 350px;
+    left: .1rem;
+    margin-top: 20px;
+  }
+
+  .icon01 {
+    left: 2rem;
+    top: -25rem;
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .icon01 p {
+    font-size: 8px;
+  }
+
+  .icon02 {
+    left: 2rem;
+    top: -24rem;
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .icon02 p {
+    font-size: 6px;
+  }
+
+  .heading {
+    top: 13rem;
+    left: 5rem;
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+    text-align: left;
+    width: 402px;
+  }
+
+  .buttonn button {
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 14px 20px;
+  }
+
+  .line01 {
+    display: none;
+  }
+
+  .dot01 {
+    display: none;
+  }
+
+  .line02 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 230px) {
+  .logo img {
+    width: 4rem;
+    left: 3rem;
+  }
+
+  .nav-item {
+    gap: 1rem;
+  }
+
+}
